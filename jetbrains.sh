@@ -1,4 +1,4 @@
-case "JetBrains" in intalled.ri)
+case "JetBrains" in $(cat installed.ri))
 echo "This repo is installed"
 ;;
 *)
